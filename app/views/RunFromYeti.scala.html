@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>On the slopes</title>
+    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/style.css">
+</head>
+<body id="runbackground">
+<h1 id="run">as you run down the mountain,</h1>
+    <h1 id="run"> you see a pile of snow and a shark cage</h1>
+<br>
+<br>
+<form method="post" action="/hideinsnow">
+    @helper.CSRF.formField
+    <input type="submit" value="hide in the snow">
+</form>
+<br>
+<form method="post" action="/getinsharkcage">
+    @helper.CSRF.formField
+    <input type="submit" value="jump in the shark cage">
+</form>
+</body>
+</html>

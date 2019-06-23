@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/style.css">
+    <meta charset="UTF-8">
+    <title>Hide</title>
+</head>
+<body id="hidefromyeti">
+<form method="post" action="/getup">
+    @helper.CSRF.formField
+    <input type="submit" value="get up and run..." id="getoutofsnow">
+</form>
+<form method="post" action="/stayhidden">
+    @helper.CSRF.formField
+    <input type="submit" value="stay hidden..." id="stayinsnow">
+</form>
+@helper.CSRF.formField
+</body>
+</html>

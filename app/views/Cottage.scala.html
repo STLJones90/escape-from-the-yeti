@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A Peasant Cottage</title>
+    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/style.css">
+</head>
+<body id="forrestbackground">
+<img src="assets/images/cottage.jpg" class="cottage">
+<h1 id="cottage">you are at your beautiful cottage in the Himalayas.</h1>
+<h1 id="cottage"> It is pleasant in your garden.</h1>
+<h1 id="cottage"> as you water your spinach tree, you see an angry yeti approaching</h1>
+<form method="post" action="/calm">
+    @helper.CSRF.formField
+    <input type="submit" value="Try to calm the yeti">
+</form>
+<br>
+<form method="post" action="/runfromyeti">
+    @helper.CSRF.formField
+    <input type="submit" value="run for your life">
+</form>
+</body>
+</html>

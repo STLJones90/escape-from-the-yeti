@@ -1,0 +1,189 @@
+#yeti
+{
+color: #01CEFE;
+font-size:40px;
+font-family: "Courier New", Courier, monospace;
+}
+
+#yeti2
+{
+color: #2A4381;
+font-size:40px;
+font-family: "Courier New", Courier, monospace;
+}
+
+#yeti3
+{
+background-image: url("../images/cool.gif");
+font-family: "Courier New", Courier, monospace;
+}
+
+#forrestbackground
+{
+background-image: url("../images/forrest.jpg");
+font-family: "Courier New", Courier, monospace;
+}
+
+#playernamecss
+{
+color: #7C1EDF;
+font-size:20px;
+font-family: "Courier New", Courier, monospace;
+
+}
+
+#cottage
+{
+color: #68E626;
+font-size:30px;
+font-family: "Courier New", Courier, monospace;
+}
+
+img.cottage
+{
+height: 400px;
+}
+
+img.yetipic
+{
+height: 400px;
+}
+
+#yeti
+{
+color: #449D9C;
+font-size:60px;
+font-family: "Courier New", Courier, monospace;
+}
+
+#dieToYeti
+{
+background-image: url("../images/scary_yeti.jpg");
+}
+
+#shark
+{
+color: #A0AA57;
+font-size:60px;
+font-family: "Courier New", Courier, monospace;
+
+}
+
+#run
+{
+color: #34AD5B;
+font-size:50px;
+font-family: "Courier New", Courier, monospace;
+}
+
+#getoutofsnow
+{
+  margin-top: 650px;
+  margin-right:800px;
+  text-align: center;
+  font-size:10px;
+  color: #2A4381;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#runbackground
+{
+background: url("../images/running.gif");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+#stayinsnow
+{
+  margin-left:800px;
+  text-align: center;
+  font-size:10px;
+  color: #2A4381;
+  font-family: "Courier New", Courier, monospace;
+}
+
+
+#getupbackground
+{
+background: url("../images/getupbackground.gif");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#hidefromyeti
+{
+background: url("../images/hidingfromyeti.gif");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+#sharkattackbackground
+{
+background: url("../images/sharkgif.gif");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+#sharkattack1
+{
+color: #FE0664;
+font-size:50px;
+font-family: "Courier New", Courier, monospace;
+
+}
+
+img.sharkattack2
+{
+height: 400px;
+}
+
+#sharkwin
+{
+color: #FE0664;
+font-size:50px;
+font-family: "Courier New", Courier, monospace;
+text-align: center;
+  margin-top: 150px;
+}
+
+#sharkWinBackground
+{
+background: url("../images/shark.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+ transform: scale(1.1);
+}
+
+body
+{
+text-align: center;
+}
+
+#button1
+{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size:55px;
+  color: #2A4381;
+  font-family: "Courier New", Courier, monospace;
+}
+
+
